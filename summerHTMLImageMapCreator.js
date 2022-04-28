@@ -11,12 +11,7 @@ var summerHtmlImageMapCreator = (function() {
     
     /* Utilities */
     var utils = {
-        /**
-         * Returns offset from html page top-left corner for some element
-         *
-         * @param node {HTMLElement} - html element
-         * @returns {Object} - object with offsets, e.g. {x: 100, y: 200}
-         */
+        
         getOffset : function(node) {
             var boxCoords = node.getBoundingClientRect();
         
